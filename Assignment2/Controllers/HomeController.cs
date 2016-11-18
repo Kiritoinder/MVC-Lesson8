@@ -16,6 +16,8 @@ namespace Assignment2.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
+            ViewBag.Title = "About";
+            ViewBag.Inder = "Inder";
 
             return View();
         }
